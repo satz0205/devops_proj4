@@ -39,8 +39,11 @@ source .devops/bin/activate
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+   Execute the python app locally
+3. Run in Docker:  `./run_docker.sh`
+   Build docker image and start the application from docker image
+5. Run in Kubernetes:  `./run_kubernetes.sh`
+   pick up the kubernetes image to the pd and start the application
 
 ### Kubernetes Steps
 
