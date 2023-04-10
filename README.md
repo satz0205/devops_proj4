@@ -43,7 +43,7 @@ source .devops/bin/activate
 3. Run in Docker:  `./run_docker.sh`
    Build docker image and start the application from docker image
 5. Run in Kubernetes:  `./run_kubernetes.sh`
-   pick up the kubernetes image to the pd and start the application
+   pick up the kubernetes image to the pod and start the application
 
 ### Kubernetes Steps
 
